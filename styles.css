@@ -1,0 +1,49 @@
+header{
+	background-color: white;
+	padding: 1px;
+}
+header ul{
+	margin-bottom: 60px;
+}
+header li{
+	list-style-type: none;
+	display: inline !important;
+	margin: 5px 5px 50px 5px;
+}
+header li a{
+text-decoration: none;
+color: black;
+font-family: arial,sans-serif;
+font-size: 12px;
+}
+.Site-Nav{
+	float: left;
+	margin: -10px;
+}
+.Site-Nav img{
+	width: 125px;
+}
+.Site-Nav input{
+	width: 500px;
+	margin-left: 100px;
+}
+.fa-search{
+	background-color: #f1f1f1;
+	border: 1px gray ridge;
+	padding: 5px 25px;
+}
+.User-nav{
+	float: right;
+	margin: 10px 15px 10px 0;
+}
+.User-nav ul:first-child{
+	color: grey;
+}
+.User-nav img{
+	width: 30px;
+}
+body{
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 100%;
+}
