@@ -6,7 +6,6 @@ header ul{
 	margin-bottom: 60px;
 }
 header li{
-	list-style-type: none;
 	display: inline !important;
 	margin: 5px 5px 50px 5px;
 }
@@ -19,6 +18,10 @@ font-size: 12px;
 .Site-Nav{
 	float: left;
 	margin: -10px;
+}
+.fa-bars{
+	font-size: 16px;
+	color: #999 !important;
 }
 .Site-Nav img{
 	width: 125px;
@@ -36,8 +39,12 @@ font-size: 12px;
 	float: right;
 	margin: 10px 15px 10px 0;
 }
-.User-nav ul:first-child{
-	color: grey;
+.User-nav li{
+	padding: 0 5px;
+}
+.fa-bell-o{
+	font-size: 21px;
+	color: gray;
 }
 .User-nav img{
 	width: 30px;
@@ -46,4 +53,21 @@ body{
 	background-color: #f1f1f1;
 	width: 100%;
 	height: 100%;
+}
+body li{
+	list-style-type: none;
+}
+.video{
+	float: left;
+    padding: 10px 10px 10px 20px;
+}
+.Next{
+	background-color: white;
+}
+/* Media */
+@media(max-width: 1093px){
+	.Site-Nav input{
+		width: 250px;
+		margin-left: 0px
+	}
 }
